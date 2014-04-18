@@ -13,8 +13,8 @@ Functions are lower case
 
 EX:
 
-timer3.initialize(20); //set up 20ms timer for a servo for instance
-timer3.pwm(3, 100); //set duty cycle on pin 3 to 10%
+timer3.initialize(20000); //set up 20ms timer for a servo for instance
+timer3.pwm(3, 20); //set duty cycle on pin 3 to 2%
 
 TODO:
 Pinoccio is a bit in motion still and theres no way for me to call the pins in
