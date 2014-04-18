@@ -72,6 +72,14 @@
   #define TIMER1_ICP_PIN 14
   #define TIMER1_CLK_PIN 1
 
+
+// Arduino 256RFR2, Just the Pinoccio rihgt now?
+//
+#elif defined(__AVR_ATmega256RFR2__)
+  #define TIMER3_A_PIN   3
+  #define TIMER3_B_PIN   4
+  #define TIMER3_C_PIN   5
+
 #endif
 
 #endif
